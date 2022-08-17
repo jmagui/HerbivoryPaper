@@ -1,4 +1,4 @@
-fly_id,species,vial_date,body,gut,mouthhook,dissection_date,
+fly_id,species,vial_date,body,gut,skeleton,dissection_date,
 1,D. melanogaster,8/31/21,5.515,15.393,0.304,9/7/21,gut is ave of 2 measurements
 2,D. melanogaster,8/31/21,5.504,16.819,0.32,9/7/21,gut is ave of 2 measurements
 3,D. melanogaster,8/31/21,5.301,13.493,0.296,9/7/21,gut is ave of 2 measurements

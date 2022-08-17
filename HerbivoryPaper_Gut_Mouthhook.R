@@ -8,13 +8,14 @@ setwd("/Users/jessicaaguilar/Desktop/Temporary.data.folder")
 
 data <- read.csv('gut_mouthhook_cleaned_2022.02.22.csv')
 
+
 shape_data<- read.csv("mouthookshape_area_2022.03.23.csv")
 
 
 data2 <-
   mutate(data,
          gut_body = gut/body,
-         mouthhook_body = mouthhook/body
+         skeleton_body = skeleton/body
   )
 
 #plots for mouthhook and gut sizes, shapes 
@@ -40,15 +41,15 @@ TukeyHSD(gut.aov)
 
 skeleton.plot <- ggplot(data = data2) +
   theme_classic() +
-  geom_boxplot(aes(x= species, y= mouthhook_body)) +
+  geom_boxplot(aes(x= species, y= skeleton_body)) +
   theme(panel.border = element_rect(linetype = "solid", fill = NA)) +
   ylab("cephaloskeleton/body") +
   xlab("species") +
-  geom_point(aes(x= species, y= mouthhook_body), position = position_jitter(w = 0.2, h = 0))
+  geom_point(aes(x= species, y= skeleton_body), position = position_jitter(w = 0.2, h = 0))
 
 skeleton.plot
 
-skeleton.aov <- aov(mouthhook_body ~ species, data = data2)
+skeleton.aov <- aov(skeleton_body ~ species, data = data2)
 summary(skeleton.aov)
 TukeyHSD(skeleton.aov)
 
