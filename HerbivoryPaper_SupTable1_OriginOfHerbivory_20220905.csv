@@ -1,0 +1,16 @@
+﻿Order,Herbivorous lineage,Herbivorous species with reference genome,Stem age of the lineage (estimated origin of herbivory),Crown age of the lineage,Reference,Comments
+Coleoptera,Buprestidae (family),Agrilus planipennis,209.5 mya,127.2 mya,McKenna et al. (2019),
+,Phytophaga (a large clade including Chrysomelidae),Leptinotarsa decemlineata,190.5 mya,178.6 mya,McKenna et al. (2019),
+,Pleurosticti (a clade within Scarabaeidae),Popillia japonica,156 mya,108.9 mya,Ahrens et al. (2014),
+Diptera,Chironomidae (family),Belgica antarctica,210-220 mya,200-210 mya,Wiegmann et al. (2011),rough estimates from figures
+,Cecidomyiidae (family),Mayetiola destructor,110-120 mya,90-100 mya,Wiegmann et al. (2011),rough estimates from figures
+,Scaptomyza flava (+ its sister lineages),Scaptomyza flava,11.62 mya,10 mya,This study,
+Hemiptera,Hemiptera (order),Acyrthosiphon pisum,255.7 mya,203.9 mya,Wiens et al. (2015),
+Hymenoptera,Symphyta (suborder),Athalia rosae,375.4 mya,155.3 mya,Wiens et al. (2015),
+Lepidoptera,"Lepidoptera (order, whole)",Bombyx mori,193.4 mya,110.6 mya,Wiens et al. (2015),
+Orthoptera,Orthoptera (order),Locusta migratoria,293.6 mya,271.5 mya,Wiens et al. (2015),
+Phasmatodea,"Pasmatodae (order, whole)",Timema cristinae,164.2 mya,124.7 mya,Misof et al. (2014),
+Thysanoptera,Thysanoptera (order),Frankliniella occidentalis,255.7 mya,128.4 mya,Wiens et al. (2015),
+,,,,,,
+Trombidiformes,Tetranychoidea (superfamily),Tetranychus urticae,300-310 mya,140-150 mya,Xue et al. (2017),rough estimates from figures
+,,,,,,

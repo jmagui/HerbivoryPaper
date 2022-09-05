@@ -8,10 +8,10 @@ library (tidyverse)
 library(ggplot2)
 
 getwd()
-setwd("/Users/jessicaaguilar/Library/CloudStorage/Box-Box/Herbivory_paper/HerbivoryPaperRepository")
+setwd("~/Library/CloudStorage/Box-Box/Herbivory_paper/HerbivoryPaperRepository")
 
 
-all_trials = read.csv("HerbivoryPaper_ChoiceTrials_Long_20220725.csv", header = T)
+all_trials = read.csv("ChoiceTrials_Long_20220725.csv", header = T)
 
 # TEST FOR SIGNIFICANCE (s flava) EGG LAYING TRIALS
 
@@ -112,7 +112,7 @@ ggsave("dmel_bar.pdf", width = 4.5, height = 3.5)
 
 ## DEVELOPMENT TRIALS
 
-survivors = read.csv("genome_larval.devo_2019.01.03.csv", header = T)
+survivors = read.csv("LarvalDevo_2019.01.03.csv", header = T)
 survivors$food.type = as.factor(survivors$food.type)
 
 kruskal_test(survivors$total.numb.flies ~ survivors$food.type, distribution = approximate(nresample = 1e7))

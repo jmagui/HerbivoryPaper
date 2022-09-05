@@ -12,7 +12,7 @@ library("vegan")
 
 #Set working directory 
 getwd()
-setwd("/Users/jessicaaguilar/Library/CloudStorage/Box-Box/Herbivory_paper/HerbivoryPaperRepository")
+setwd("~/Library/CloudStorage/Box-Box/Herbivory_paper/HerbivoryPaperRepository")
 
 
 #MAKE STACKED BAR PLOT - FLIES
