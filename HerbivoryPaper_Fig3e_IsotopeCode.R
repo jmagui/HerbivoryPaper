@@ -8,7 +8,7 @@ install.packages("ggplot2")
 library(ggplot2)
 
 # load data
-isotope = read.csv("HerbivoryPaper_SupTable2_IsotopeData_20220715.csv", h=T, na.string="NA")
+isotope = read.csv("HerbivoryPaper_IsotopeData_20220715.csv", h=T, na.string="NA")
 
 #subset literature data (exclude lab data )
 isotope2 <- subset(isotope, source.code == 0)

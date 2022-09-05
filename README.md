@@ -15,13 +15,16 @@ code and data for paper describing trophic niche of S. flava
   HerbivoryPaper_Fig2_MorphologyPanel.R
 
 ###Figure 3   
-  HerbivoryPaper_SupTable2_IsotopeData_20220715.csv
+  HerbivoryPaper_IsotopeData_20220715.csv
   food_sterol_percentages.csv
   food_sterol_percentages_wide.csv
   fly_sterol_percentages.csv
   fly_sterol_percentages_wide.csv
   HerbivoryPaper_Fig3abc_SterolFigure.R
   HerbivoryPaper_Fig3e_IsotopeCode.R
+  
+###Supplementary Figure 1 
+  HerbivoryPaper_OriginOfHerbivory_20220905.csv
 
 
 ##File Descriptions
@@ -86,7 +89,7 @@ code and data for paper describing trophic niche of S. flava
 
   fly_sterol_percentages.csv & fly_sterol_percentages_wide.csv - sterol percentages in the fly bodies or pupa; one in long format for making figures and one in wide format for Bray Curtis dissimilarity calculations in vegan
 
-   HerbivoryPaper_SupTable2_IsotopeData_20220715.csv - data that was used in the isotope figure; most data points pulled form literature, and one data point on S. flava measured in the lab
+   HerbivoryPaper_IsotopeData_20220715.csv - data that was used in the isotope figure; most data points pulled form literature, and one data point on S. flava measured in the lab
    * source - paper in which data was found
    * order - biological order
    * family - biological family
@@ -98,3 +101,15 @@ code and data for paper describing trophic niche of S. flava
 
    HerbivoryPaper_Fig3abc_SterolFigure.R - code for making figures 3a, 3b, 3c
    HerbivoryPaper_Fig3e_IsotopeCode.R - code for making figure 3e
+   
+   
+###Supplementary figure 1 
+  HerbivoryPaper_OriginOfHerbivory_20220905.csv
+  * Order - biological order 
+  * Herbivorous lineage - lineage within order that is herbivorous 
+  * Herbivorous species with reference genome - Searched from InsectBase 2.0 (http://v2.insect-genome.com/Genome). Add at least one species that represents a taxon with herbivory
+  * Stem age of the lineage (estimated origin of herbivory)
+  * Crown age of the lineage
+  * Reference - paper where data was described
+  * Comments
+
